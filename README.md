@@ -1,10 +1,10 @@
 # VBA_Challenge
 Refactoring code for a macro so that the results of the analysis will run efficiently regardless of data size.  
 
-##Overview of the VBA Challenge Project
+## Overview of the VBA Challenge Project
 Steve has asked for analysis help on stock perfomances so that he can assist his parents in their investment making decisions. The parents had one stock in mind however Steve has access to more data on different stocks.  The analysis will be run on multiple stocks to compare and realize those that perform best. A macro was created to sort through the data and display the ticker symbol, Total Daily Volume and the Return on each ticker.  In this challenge specifically, additional code was added to the macro so that it would run more efficiently so that it can be used in the future for larger data sets. 
 
-##Results
+## Results
 
 The stock analysis that can be deduced from this macro is a comparison between two years, 2017 and 2018, for the list of stock indexes provided.  As visualed below, most of the stocks had a negative return in 2017 (as seen as red cells) and a positive return in 2018 (as seen by the green highlighted cells).  The volume demonstrates the stocks that performed well in sales and the apparent winner is the SPWR, Sun Power Corporation in both years.  This would be an ideal stock to purchase so that the future sale would be quick and profitable.  
 
@@ -26,9 +26,9 @@ Refactoring the code in this challenge proved to help the run time of the macro.
 
 ![549CCF19-0B14-4DE3-8ED5-FA48864FC06D](https://user-images.githubusercontent.com/96222437/148701125-04c4156a-2cc8-4127-974b-23744eab733b.jpeg)
 
-##Summary
+## Summary
 
-###Indexticker is here to save the day! 
+### Indexticker is here to save the day! 
 Refactoring the code was accomplished by adding the IndexTicker index to hold the value of the row of the spreadsheet. Snippet of the code with the new value is below.  The new index is utilzied throughout the code, as seen below, it is referenced for the starting and ending prices, along with the ticker volume which creates a streamlined approach for capturing and storing those values. 
 
 tickerIndex created and utilized within the code
@@ -38,7 +38,7 @@ tickerIndex created and utilized within the code
 
 
 
-###Bye-Bye Nested For Loop!
+### Bye-Bye Nested For Loop! :wave:
 
 The nested For loop was removed, and single loops implemented for efficiencies. 
 
